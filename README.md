@@ -7,10 +7,11 @@ Spring Boot acts as
   * handling all spa routes, return the index.html with Statuscode 200
   * handling of bundled resources (js, css, assets)
 * REST endpoint (or graphQL) - like handling '/api'
-* gateway to other REST services that should be integrated in a more tightly way, this includes
-  * handling sth like '/gw/*
+* gateway to other REST services that should be integrated in a more tightly way (This should be mainly handled by sth like spring-cloud-router (Zuul)), this includes
+  * handling sth like '/api/*
   * handling CORS
   * handling OAuth2 (bearer token)
   * potential model transformation
+
 
 **NOTE:** it is not intended to replace an API gateway!
