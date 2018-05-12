@@ -1,3 +1,7 @@
+# the frontend - copied from parent
+src/generated/*
+
+
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
